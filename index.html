@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>The International Quiz</title>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <!--Header/Navbar-->
+        <div class="navbar">
+            <h1>THE INTERNATIONAL QUIZ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#quizStart">Take the Quiz!</a></li>
+                    <li><a href="https://github.com/samderanova/openforum" target="_blank">View Source Code</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--About Section-->
+        <div class="about">
+            <h3>About (Plus Disclaimer) </h3>
+            <p>This is a short quiz with five questions taken from tests from educational systems from a collection of countries
+                including China, Singapore, and Finland! All questions are used only for educational purposes and will not be
+                used for monetary purposes. All rights and credits go to their perspective owners. The purpose of this quiz is 
+                to enlighten viewers about different education methods around the world and nothing else!
+            </p>
+            <p>Please read each qusetion carefully and choose the answer you think is correct.</p>
+        </div>
+        <div class="quiz" id="quizStart">
+            <h4>Question 1:</h4>
+            <label for="question1">If x + y ≥ a, x - y ≤ -1, and the minimum value of z = x + ay = 7, what is a?</label>
+            <form>
+                <input type="radio" name="question1" value="">-5<br>
+                <input type="radio" name="question1" value="">-5 or 3<br>
+                <input type="radio" name="question1" value="">3<br>
+                <input type="radio" name="question1" value="">5 or -3<br>
+            </form>
+        </div>
+        <div class="quiz">
+            <h4>Question 2:</h4>
+            <label for="question2">Karl Marx and Friedrich Engels predicted that a socialist revolution would first happen in 
+                countries like Great Britain. What made Marx and Engels claim that and why did a socialist revolution happen 
+                in Russia?
+            </label>
+            <form>
+                <textarea rows="10" cols="150" placeholder="Please type your response here!" required></textarea>
+            </form>
+        </div>
+        <div class="quiz">
+            <h4>Question 3:</h4>
+            <label for="question3">
+                <blockquote><i>When any one of these changes <u>occur, it is</u> likely the result of careful analysis 
+                conducted by transportation planners.</i></blockquote>
+                Fix the grammar mistake that is underlined.
+            </label>
+            <form>
+                <input type="radio" name="question1" value="">NO CHANGE<br>
+                <input type="radio" name="question1" value="">occur, they are<br>
+                <input type="radio" name="question1" value="">occurs, they are<br>
+                <input type="radio" name="question1" value="">occurs, it is<br>
+            </form>
+        </div>
     </body>
 </html>
